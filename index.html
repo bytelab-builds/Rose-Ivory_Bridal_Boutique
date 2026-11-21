@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose &amp; Ivory Bridal Boutique | Your Dream Dress</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">Rose <span>&amp;</span> Ivory</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#collections">Collections</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#process">How It Works</a>
+            <a href="#fitting" class="nav-cta">Book a Fitting</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tagline">Bridal &amp; Occasion Wear</p>
+            <h1>Your dream dress,<br>made for your big day.</h1>
+            <p class="hero-text">Handcrafted bridal, mehndi, and walima outfits with personal fittings and a team that listens.</p>
+            <div class="hero-buttons">
+                <a href="#gallery" class="btn">View Collection</a>
+                <a href="#fitting" class="btn btn-outline">Book a Fitting</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <img src="images/about.jpg" alt="Bride trying on a gown during a fitting at the boutique">
+        <div class="about-text">
+            <p class="eyebrow">Our Story</p>
+            <h2>Where every dress tells a story</h2>
+            <p>Rose &amp; Ivory was created for brides who want something truly their own. We design and tailor each outfit around you, from the first sketch to the final fitting.</p>
+            <p>Our team works closely with every bride, so you feel confident and calm on your wedding day.</p>
+            <ul class="highlights">
+                <li>Custom designs and tailoring</li>
+                <li>Private, unhurried fitting appointments</li>
+                <li>Bridal, mehndi, walima, and formal wear</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="collections" class="section collections">
+        <h2>Our Collections</h2>
+        <p class="section-intro">Outfits for every moment of your wedding celebrations.</p>
+        <div class="collection-grid">
+            <a href="#gallery" class="collection-card" data-filter="bridal">
+                <h3>Bridal</h3>
+                <p>Statement gowns and lehengas for the main day.</p>
+            </a>
+            <a href="#gallery" class="collection-card" data-filter="mehndi">
+                <h3>Mehndi</h3>
+                <p>Vibrant, playful outfits for the henna night.</p>
+            </a>
+            <a href="#gallery" class="collection-card" data-filter="walima">
+                <h3>Walima</h3>
+                <p>Soft, graceful looks for the reception.</p>
+            </a>
+            <a href="#gallery" class="collection-card" data-filter="formal">
+                <h3>Formal</h3>
+                <p>Elegant evening wear for guests and family.</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <h2>The Collection</h2>
+        <p class="section-intro">Browse by occasion. Tap a photo to see it larger.</p>
+
+        <div class="filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="bridal">Bridal</button>
+            <button class="filter" data-filter="mehndi">Mehndi</button>
+            <button class="filter" data-filter="walima">Walima</button>
+            <button class="filter" data-filter="formal">Formal</button>
+        </div>
+
+        <div class="gallery-grid">
+            <figure class="gallery-item" data-category="bridal">
+                <img src="images/bridal1.jpg" alt="Red and gold bridal lehenga">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Classic Red Bridal</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="mehndi">
+                <img src="images/mehndi1.jpg" alt="Green and yellow mehndi outfit">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Floral Mehndi Set</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="walima">
+                <img src="images/walima1.jpg" alt="Pastel walima gown">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Pastel Walima Gown</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="formal">
+                <img src="images/formal1.jpg" alt="Emerald evening formal dress">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Emerald Evening Dress</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="bridal">
+                <img src="images/bridal2.jpg" alt="Ivory embroidered bridal gown">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Ivory Embroidered Bridal</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="mehndi">
+                <img src="images/mehndi2.jpg" alt="Orange mehndi dress with mirror work">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Mirror-Work Mehndi</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="walima">
+                <img src="images/walima2.jpg" alt="Blush pink walima dress">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Blush Walima Dress</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="formal">
+                <img src="images/formal2.jpg" alt="Navy formal evening gown">
+                <span class="tag">Rent or Buy</span>
+                <figcaption>Navy Formal Gown</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="options" class="section options">
+        <h2>Rent or Buy</h2>
+        <p class="section-intro">Choose what suits your budget and your big day.</p>
+        <div class="option-grid">
+            <div class="option-card">
+                <h3>Buy</h3>
+                <p class="option-sub">Yours to keep</p>
+                <ul>
+                    <li>Made or tailored to your measurements</li>
+                    <li>Free alterations during fittings</li>
+                    <li>Keep it as a lifelong memory</li>
+                </ul>
+                <a href="#fitting" class="btn">Book a Fitting</a>
+            </div>
+            <div class="option-card featured">
+                <span class="badge">Popular</span>
+                <h3>Rent</h3>
+                <p class="option-sub">Wear it for a fraction of the price</p>
+                <ul>
+                    <li>Choose from our rental collection</li>
+                    <li>Fitting and basic alterations included</li>
+                    <li>Refundable security deposit</li>
+                    <li>Cleaning handled by us</li>
+                </ul>
+                <a href="#fitting" class="btn">Book a Fitting</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="section process">
+        <h2>How It Works</h2>
+        <p class="section-intro">Three simple steps to your perfect outfit.</p>
+        <div class="steps">
+            <div class="step">
+                <span class="step-number">1</span>
+                <h3>Book a fitting</h3>
+                <p>Choose a date and tell us about your event.</p>
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                <h3>Choose and customize</h3>
+                <p>Pick a design, fabrics, and details with our team.</p>
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                <h3>Final fitting</h3>
+                <p>We perfect every detail before your big day.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fitting" class="section fitting">
+        <h2>Book a Fitting</h2>
+        <p class="section-intro">Tell us about your event and we'll confirm your appointment by phone.</p>
+
+        <form class="fitting-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 000 000 0000" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="occasion">Occasion</label>
+                    <select id="occasion" name="occasion" required>
+                        <option value="">Choose an occasion</option>
+                        <option value="bridal">Bridal</option>
+                        <option value="mehndi">Mehndi</option>
+                        <option value="walima">Walima</option>
+                        <option value="formal">Formal / Guest</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="event-date">Event date</label>
+                    <input type="date" id="event-date" name="event_date" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="interest">I'm interested in</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Choose one</option>
+                    <option value="buy">Buying</option>
+                    <option value="rent">Renting</option>
+                    <option value="unsure">Not sure yet</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="fitting-date">Preferred fitting date</label>
+                <input type="date" id="fitting-date" name="fitting_date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Tell us about your vision (optional)</label>
+                <textarea id="notes" name="notes" rows="3" placeholder="Colors, style, budget, number of outfits..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">Request Fitting</button>
+            <p class="form-note">This is a demo form for a fictional boutique.</p>
+        </form>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Visit the Boutique</h2>
+        <div class="contact-info">
+            <div class="info-box">
+                <h3>Address</h3>
+                <p>24 Bridal Lane<br>xyz City</p>
+            </div>
+            <div class="info-box">
+                <h3>Hours</h3>
+                <p>Mon to Sat: 11:00 AM to 8:00 PM<br>Sunday: By appointment</p>
+            </div>
+            <div class="info-box">
+                <h3>Contact</h3>
+                <p>
+                    <a href="tel:+10000000000">+1 000 000 0000</a><br>
+                    <a href="mailto:hello@roseandivory.com">hello@roseandivory.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Rose &amp; Ivory Bridal Boutique. Demo website by <a href="https://bytelab-builds.github.io/bytelab_builds.github.io/">Byte Lab Builds</a>. Not a real business.</p>
+        <p><a href="https://bytelab-builds.github.io/bytelab_builds.github.io/">&larr; Back to portfolio</a></p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close image">✕</button>
+        <img src="" alt="">
+        <p class="lightbox-caption"></p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
